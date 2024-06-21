@@ -1,0 +1,50 @@
+body {
+    background-color:#e6fff9;
+    color: #ff0066;
+  }
+
+h1 {
+    color: #00664e;
+    display: flex;
+    justify-content: center;
+    font-family: verdana;
+    font-size: 300%;
+  }
+  .container {
+    text-align: center; /* Optional: Aligns everything center */
+}
+
+#answer, #questionBtn, #answerBtn {
+    display: inline-block;
+    vertical-align: middle; /* Aligns items vertically */
+    margin-right: 10px; /* Optional: Adds space between elements */
+}
+
+#question {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+#feedback {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+button {
+    --bottom-color: #999;
+    --right-color: #ddd;
+  
+    box-shadow:
+        1px 0   0 var(--right-color),
+        1px 1px 0 var(--bottom-color),
+        2px 1px 0 var(--right-color),
+        2px 2px 0 var(--bottom-color),
+        3px 2px 0 var(--right-color),
+        3px 3px 0 var(--bottom-color),
+        4px 3px 0 var(--right-color),
+        4px 4px 0 var(--bottom-color);
+  }
+  
+
+
+
